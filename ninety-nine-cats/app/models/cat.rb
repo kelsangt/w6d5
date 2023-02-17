@@ -22,5 +22,6 @@ class Cat < ApplicationRecord
     validates :name, presence:true
     
     validate: birth_date_cannot_be_true
+    
 
 end
